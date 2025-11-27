@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($myCheck) {
         $checkResult = "<b style='color:green'> Cool! </b>";
     } else {
-        $checkResult = "<span style='color:red'> Try the magic word</span>";
+        $checkResult = "<span style='color:red'> Try the magic word 'fred'</span>";
     }
 }
 
@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h3 align="center">T2A06-php-codesandbox</h3>
+    <h3 align="center">Render-PHP-submit</h3>
 
     <form action="" method="post" style="text-align: center; margin-bottom: 20px;">
         <label for="myText01">Enter Text:</label>
