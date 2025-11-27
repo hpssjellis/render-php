@@ -33,12 +33,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h3 align="center">Render-PHP-submit</h3>
+    <h3>Render-PHP-submit</h3>
 
-    <form action="" method="post" style="text-align: center; margin-bottom: 20px;">
+    <form action="" method="post" >
         <label for="myText01">Enter Text:</label>
         <!-- The 'value' attribute keeps the entered text after submission -->
-        <input type="text" id="myText01" name="myText01" value="<?= htmlspecialchars($myInputText01); ?>">
+   <!-- <input type="text" id="myText01" name="myText01" value="<?= htmlspecialchars($myInputText01); ?>"> -->
+        <input type="text" id="myText01" name="myText01" value="">
         <input type="submit" value="Submit">
     </form>
     
